@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Student Organizations</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('registered') }}">Registered Users</a></li>
+      </ul>
+    </nav>
+    {% block content %}{% endblock %}
+  </body>
+</html>
